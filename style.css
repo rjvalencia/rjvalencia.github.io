@@ -59,7 +59,7 @@ header.startup h1 {
 
 .nav {
     color: #FFFFFF;
-    background-color: none;
+    background-color: transparent;
     font-size: 20px;
 }
 
