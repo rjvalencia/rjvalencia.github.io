@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -310,3 +310,6 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(120, 47, 64, 0.5) !important;
 }
+
+.highlight {
+  color: #E31B6D; }
