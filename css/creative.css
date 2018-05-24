@@ -167,15 +167,15 @@ img::-moz-selection {
 }
 
 header.masthead {
-  /*padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);*/
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
   /*background-image: url("../img/header.jpg");*/
+  background: #212529;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: #212529;
 }
 
 header.masthead hr {
@@ -313,9 +313,13 @@ header.masthead p {
 }
 
 .highlight {
-  color: #CEB888; }
+  color: #CEB888; 
+}
 
 #particles-js {
-  height: 100%;
-  background: #212529;
+    position : absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    background: #212529;
 }  
