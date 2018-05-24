@@ -261,7 +261,7 @@ header.masthead p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
@@ -277,7 +277,7 @@ header.masthead p {
     font-size: 16px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
