@@ -1,8 +1,11 @@
 {
-    "title": "Creative",
-    "name": "startbootstrap-creative",
-    "version": "4.0.0",
-    "description": "Creative is a stylish one page HTML theme for Bootstrap.",
+    "title": "Interactive Resume",
+    "name": "rjvalencia-ir",
+    "version": "5.0.7",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "Rene Valencia Interactive Resume",
     "keywords": [
         "css",
         "sass",
@@ -11,35 +14,37 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/creative",
+    "homepage": "https://www.rjvalencia.com/",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://www.rjvalencia.com/",
+        "email": "renevalencia92@gmail.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Rene Valencia",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Rene Valencia"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+        "url": "https://github.com/rjvalencia/rjvalencia.github.io"
     },
     "dependencies": {
-        "bootstrap": "4.0.0",
-        "font-awesome": "4.7.0",
-        "jquery": "3.3.1",
-        "jquery.easing": "^1.4.1",
-        "magnific-popup": "^1.1.0",
-        "scrollreveal": "3.3.6"
+        "@fortawesome/fontawesome-free": "5.9.0",
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
+        "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
-        "browser-sync": "2.23.6",
-        "gulp": "^3.9.1",
-        "gulp-clean-css": "3.9.2",
-        "gulp-header": "2.0.1",
-        "gulp-rename": "^1.2.2",
-        "gulp-sass": "^3.1.0",
-        "gulp-uglify": "3.0.0"
+        "browser-sync": "2.26.7",
+        "del": "4.1.1",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "6.1.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
     }
 }
