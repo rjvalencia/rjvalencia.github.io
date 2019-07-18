@@ -1,50 +1,51 @@
 {
-    "title": "Interactive Resume",
-    "name": "rjvalencia-ir",
-    "version": "5.0.7",
-    "scripts": {
-        "start": "node_modules/.bin/gulp watch"
-    },
-    "description": "Rene Valencia Interactive Resume",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://www.rjvalencia.com/",
-    "bugs": {
-        "url": "https://www.rjvalencia.com/",
-        "email": "renevalencia92@gmail.com"
-    },
-    "license": "MIT",
-    "author": "Rene Valencia",
-    "contributors": [
-        "Rene Valencia"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/rjvalencia/rjvalencia.github.io"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "5.9.0",
-        "bootstrap": "4.3.1",
-        "jquery": "3.4.1",
-        "jquery.easing": "^1.4.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "4.1.1",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "6.1.0",
-        "gulp-clean-css": "4.2.0",
-        "gulp-header": "2.0.7",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
-    }
+  "title": "Interactive Resume",
+  "name": "rjvalencia-ir",
+  "version": "5.0.7",
+  "scripts": {
+    "start": "node_modules/.bin/gulp watch"
+  },
+  "description": "Rene Valencia Interactive Resume",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://www.rjvalencia.com/",
+  "bugs": {
+    "url": "https://www.rjvalencia.com/",
+    "email": "renevalencia92@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Rene Valencia",
+  "contributors": [
+    "Rene Valencia"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjvalencia/rjvalencia.github.io"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.9.0",
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "jquery.easing": "^1.4.1",
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "del": "4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-clean-css": "4.2.0",
+    "gulp-header": "2.0.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0"
+  }
 }
